@@ -1,6 +1,5 @@
 body {
   font-weight: normal;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   @font-face {
     font-family: roboto-bold;
@@ -13,7 +12,7 @@ body {
 
 header {
   background-color: #c5cbce;
-  padding: 100px;
+  padding: 25px; px;
 }
 
 header img {
