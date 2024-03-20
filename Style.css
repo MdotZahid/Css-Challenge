@@ -1,18 +1,15 @@
 body {
   font-weight: normal;
-
-  @font-face {
-    font-family: roboto-bold;
-    src: url(../fonts/roboto-bold);
-  }
+  font-family: roboto-bold;
 
   text-align: center;
-  margin: 0%;
+  margin: 0;
 }
 
 header {
   background-color: #c5cbce;
-  padding: 25px; px;
+  padding: 25px;
+
 }
 
 header img {
@@ -24,32 +21,25 @@ header img {
 }
 
 .Center {
-  background-color: rgba(255, 76, 11, 0.436);
-  padding: 100px;
-
+  background-color: rgba(239, 80, 91, 0.789);
+  padding: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
 }
-
+.heading1{
+ font-size: 20px
+ 
+}
 .heading2 {
   font-family: roboto-bold;
   -webkit-text-fill-color: rgb(62, 1, 183);
-  font-weight: 600;
+  font-weight: 300px;
   font-size: 50px;
-}
-
-.picture1 {
-  width: 200px;
-  height: 200px;
-  padding-left: 580px;
-  border-radius: 50px;
-}
-
-@font-face {
-  font-family: roboto-bold;
-  src: url(../fonts/roboto-bold);
+ 
 }
 
 h2 {
-  font-size: 42px;
   margin-bottom: 10px;
 
   font-weight: 100;
@@ -57,38 +47,39 @@ h2 {
 
 .myheading {
   font-size: 50px;
-  font-weight: 600;
-  font-family: roboto-bold;
+  text-align: center;
+
   font-family: roboto-bold;
   -webkit-text-fill-color: rgb(62, 1, 183);
   font-weight: 600;
-  font-size: 50px;
+  
 }
 
 h3 {
-  font-family: Cambria, Cochin, Georgia, Verdana, Geneva, Tahoma, sans-serif;
 
-  font-size: 35px;
-  font-weight: 600;
-
+  font-size: 20px;
+  
 }
 
 .small {
-  font-size: 16px;
+  font-size: 15px !important;
   background-color: rgba(4, 173, 179, 0.54);
 }
 
 .article {
   background-color: #eaf9ff;
-  padding: 100px;
+  padding: 45px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 div {
-  background-color: rgb(119, 191, 246);
+  background-color: rgb(101, 177, 236); 
+  
 }
 
 .heading {
-  font-family: roboto-bold;
+ 
   -webkit-text-fill-color: rgb(62, 1, 183);
   font-weight: 600;
   font-size: 50px;
